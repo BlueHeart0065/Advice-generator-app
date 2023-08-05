@@ -85,7 +85,7 @@ body {
 }
 
 .dice {
-    margin: 1.2vw 0vw 0vw 1.2vw;
+    margin: 1.17vw 0vw 0vw 1.17vw;
     width: 1.7vw;
     height: 1.7vw;
 }
@@ -137,11 +137,17 @@ body {
     .button{
         width: 17vw;
         height: 17vw;
+        top: 8vw;
     }
 
     .dice{
         width: 8vw;
         height: 8vw;
+        margin: 4.5vw 0vw 0vw 4.5vw;
+    }
+
+    .attribution{
+        margin-top: 30vw;
     }
 
 
