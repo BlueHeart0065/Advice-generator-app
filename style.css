@@ -107,6 +107,7 @@ body {
 
     .hero {
         margin-top: 30vw;
+        margin-bottom: 40vw;
     }
 
     .advice-id {
@@ -150,10 +151,6 @@ body {
         width: 8vw;
         height: 8vw;
         margin: 1.2vw 0vw 0vw 0.5vw;
-    }
-
-    .attribution{
-        margin-top: 50vw;
     }
 
 
