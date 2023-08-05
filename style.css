@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: hsl(218, 23%, 16%);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    background-color: hsl(217, 19%, 24%);
+    margin: 10vw auto 0vw auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px hsl(220, 9%, 14%);
+}
+
+.advice-id {
+    color: hsl(150, 100%, 66%);
+    margin: 3vw auto 1vw auto;
+    font-family: 'Manrope';
+    font-size: 0.6vw;
+    font-weight: 800;
+    letter-spacing: 0.4vw;
+    transition: all 0.3s;
+}
+
+.advice{
+    /* background-color: aliceblue; */
+    margin: 0vw 4vw 2vw 4vw;
+    width: 25vw;
+    height: fit-content;
+    transition: all 0.3s;
+}
+
+.advice-text{
+    /* padding: 0vw 4vw 0vw 4vw; */
+    font-family: 'Manrope';
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.seperation{
+    display: flex;
+    flex-direction: row;
+    margin: 0vw 0vw 1vw 2vw;
+}
+
+.line{
+    background-color: #4F5D74;
+    width: 13vw;
+    height: 0.1vw;
+
+}
+
+.pause{
+    width: 3vw;
+    height: 1.75vw;
+    margin: -0.9vw 0vw 0vw 0vw;
+}
+
+.button{
+    position: relative;
+    top: 1.5vw;
+    background-color: hsl(150, 100%, 66%);
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50px;
+    margin: auto;
+    cursor: pointer;
+    justify-content: center;
+    z-index: 2;
+    transition: all 0.3s;
+}
+
+.button:hover{
+    box-shadow: 0px 0px 30px hsl(150, 100%, 66%);
+}
+
+.button:active{
+    transform: translateY(4px);
+}
+
+.dice{
+    margin: 1.2vw 0vw 0vw 1.2vw;
+    width: 1.7vw;
+    height: 1.7vw;
+}
+
+.attribution{
+    font-family: 'Manrope';
+    color: white;
+    letter-spacing: 2px;
+}
